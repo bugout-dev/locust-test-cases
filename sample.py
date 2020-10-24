@@ -1,7 +1,7 @@
 import argparse
 
 def hello(name: str):
-    print(f"Hello, {name}!")
+    print(f"Hello, {name}!!")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Hello world program")
