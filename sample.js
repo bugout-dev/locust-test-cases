@@ -14,6 +14,10 @@ function goodbye() {
 }
 
 const lol = function() {
+  function throwaway(x) {
+    return x;
+  }
+
   return "lol";
 }
 
