@@ -1,8 +1,12 @@
 function hello(name) {
-  if (!name) {
-    name = "world";
+  function validName(n) {
+    if (!n) {
+      return "world";
+    }
+    return n;
   }
-  return `Hello, ${name}!`;
+  validatedName = validName(name);
+  return `Hello, ${validatedName}!`;
 }
 
 const name = process.argv[2];
