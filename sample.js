@@ -23,11 +23,19 @@ const lol = function() {
 
 class Greeter {
   constructor(name) {
-    this.name = name
+    this.name = name;
+  }
+
+  get name() {
+    return this.name;
+  }
+
+  #something() {
+    return null
   }
 
   greet() {
-    return hello(this.name)
+    return hello(this.name);
   }
 }
 
