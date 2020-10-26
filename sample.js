@@ -13,5 +13,9 @@ function goodbye() {
   return "Goodbye!";
 }
 
+const lol = function() {
+  return "lol";
+}
+
 const name = process.argv[2];
 console.log(hello(name));
