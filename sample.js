@@ -9,5 +9,9 @@ function hello(name) {
   return `Hello, ${validatedName}!`;
 }
 
+function goodbye() {
+  return "Goodbye!";
+}
+
 const name = process.argv[2];
 console.log(hello(name));
