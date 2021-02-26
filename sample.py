@@ -4,8 +4,10 @@ class OperationFailed(Exception):
 def failure():
     raise OperationFailed("failure")
 
-if __name__ == "__main__":
+def main():
     try:
         failure()
     except OperationFailed as e:
         print(f"Something went wrong: {str(e)}")
+
+main()
